@@ -7,7 +7,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import cadastroVideo from './pages/cadastro/Video'
 import cadastroCategoria from './pages/cadastro/Categoria';
 
-const Pagina404 =() => ( <div>Página não encontrada</div> )
+const Pagina404 = () => (<div>Página não encontrada</div>)
 
 ReactDOM.render(
   <BrowserRouter>
@@ -20,8 +20,3 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
-
-
-//<React.StrictMode>
-//<App />
-//</React.StrictMode>,
